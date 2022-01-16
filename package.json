@@ -1,7 +1,7 @@
 {
     "name": "Paytm_Plugin_Server",
     "version": "1.0.0",
-    "description": "Paytm checksum",
+    "description": "Paytm check sum generation",
     "main": "index.js",
     "private": true,
     "scripts": {

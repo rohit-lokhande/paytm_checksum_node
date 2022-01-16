@@ -1,6 +1,6 @@
 // in sublime
 var express = require('express');
-var port = process.env.PORT || 3000;
+var port = process.env.PORT;
 var app = express();
 
 const https = require('https');
@@ -14,6 +14,10 @@ app.use(express.urlencoded({ extended: false }));
 app.get('/', (req, res) => {
     res.send('Hello World!')
   })
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })  
 
 app.post('/generateTxnToken', function(request, res) {
 
