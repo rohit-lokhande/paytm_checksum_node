@@ -1,6 +1,6 @@
 // in sublime
 var express = require('express');
-var port = process.env.PORT || 3000;
+var port = process.env.PORT;
 var app = express();
 
 const https = require('https');
