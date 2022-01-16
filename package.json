@@ -1,9 +1,9 @@
 {
     "name": "Paytm_Plugin_Server",
     "version": "1.0.0",
-    "description": "",
+    "description": "Paytm checksum",
     "main": "index.js",
-
+    "private": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node app.js"
